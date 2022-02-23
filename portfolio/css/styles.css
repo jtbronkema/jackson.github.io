@@ -33,7 +33,7 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #0d6efd;
+  --bs-primary: #3498db;
   --bs-secondary: #6c757d;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
@@ -41,7 +41,7 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 13, 110, 253;
+  --bs-primary-rgb: 52, 152, 219;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
@@ -64,6 +64,14 @@
   --bs-body-bg: #fff;
 }
 
+
+.header {
+padding: 40px;
+text-align: center;
+background: #3498db;
+color: #ececec;
+font-size: 30px;
+}
 *,
 *::before,
 *::after {
@@ -101,10 +109,17 @@ hr:not([size]) {
   height: 1px;
 }
 
+.h2top{
+  margin-top: -50px;
+}
+.h4top{
+  margin-top: -50px;
+}
+
+
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
-  margin-top: 0;
   margin-bottom: 0.5rem;
-  font-weight: 500;
+  font-weight: normal;
   line-height: 1.2;
 }
 
@@ -174,7 +189,7 @@ address {
 
 ol,
 ul {
-  padding-left: 2rem;
+  padding-left: 3rem;
 }
 
 ol,
@@ -634,8 +649,8 @@ progress {
 .container-md,
 .container-sm {
   width: 100%;
-  padding-right: var(--bs-gutter-x, 0.75rem);
-  padding-left: var(--bs-gutter-x, 0.75rem);
+  padding-right: var(--bs-gutter-x, .75rem);
+  padding-left: var(--bs-gutter-x, .75rem);
   margin-right: auto;
   margin-left: auto;
 }

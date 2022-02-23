@@ -40,7 +40,10 @@
                 <a href="#skills">Skills</a>
             </li>
             <li>
-                <a href="#contact">Contact</a>
+                <a href="#certifications">Certifications</a>
+            </li>
+            <li>
+                <a href="#CurrentProjects">Current Projects</a>
             </li>
         </ul>
     </header>
@@ -50,7 +53,7 @@
         <div id="lead-content">
             <h1>Jackson Bronkema</h1>
             <h2>Welcome to my Data Science Portfolio!</h2>
-            <img src="images/small_headshot.jpg" />
+            <img src="images/Picture1.png" />
             <br>
             <br>
             <a href="Jackson Bronkema Resume.pdf" class="btn-rounded-white">Download Resume</a>
@@ -138,7 +141,7 @@
                 </ul>
             </div>
 
-            <div data-date="May 2019 – August 2019">
+            <div data-date="June 2018 – August 2018">
                 <h3>Taylor University Conference Services - Upland, Indiana</h3>
                 <h4>Conference Services Representative Internship</h4>
                 <ul>
@@ -238,11 +241,32 @@
                             Using data available to us online, I created a data-driven COVID-19 strategy that the U.S Government should implement
                             going forward. In this project we used Tableau Storytelling Mode to visualize and present our data.
                         </p>
-                        <a href="portfolio/hulu.html">View Project</a>
+                        <a href="portfolio/covid.html">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
                 <!-- End .project -->
+
+
+                <!-- R Shiny App Project -->
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/shiny.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Using R Shiny to Create an NBA Analytics Dashboard</h3>
+                        <h4>R, Excel | Machine Learning Algorithms, R Shiny, Data Visualization, Data Cleaining, Research</h4>
+                        <p>
+                            Our team created a live NBA Analytics Dashboard focused at sports fans and NBA bettors. This dashboard includes live twitter feeds,
+                            league-wide player and team information and statistics, deep stats and direct player comparisons, cluster analysis, and an ML-based NBA
+                            game results prediction.
+                        </p>
+                        <a href="portfolio/shiny.html">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+
 
                 <div class="project shadow-large">
                     <div class="project-image">
@@ -258,11 +282,27 @@
                             competitors - Netflix, Hulu, HBO Max, and Disney +. We were able to see which areas Amazon Prime was doing well,
                             and which areas there was room for improvement.
                         </p>
-                        <a href="portfolio/hulu.html">View Project</a>
+                        <a href="portfolio/amazonprime.html">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
                 <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/airline.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Solving Logistics Problems for An Airline using ML in Python</h3>
+                        <h4>Python | Machine Learning Algorithms, PULP, SVM, Data Cleaining, Research</h4>
+                        <p>
+                            As the final project in my Computing for Analytics class, we were tasked with using 4 different algorithms techniques to solve problems
+                        </p>
+                        <a href="portfolio/airline.html">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
 
             </div>
         </div>
@@ -292,60 +332,80 @@
             <li>GSuite</li>
             <li>MySQL</li>
             <li>Oracle</li>
+            <li> MongoDB </li>
 
         </ul>
     </div>
-    <!-- End #skills -->
 
-    <div id="contact">
-        <h2>Get in Touch</h2>
-        <div id="contact-form">
-            <form method="POST" action="https://formspree.io/email@email.com">
-                <input type="hidden" name="_subject" value="Contact request from personal website" />
-                <input type="email" name="_replyto" placeholder="Your email" required>
-                <textarea name="message" placeholder="Your message" required></textarea>
-                <button type="submit">Send</button>
-            </form>
-        </div>
-        <!-- End #contact-form -->
+    <div id="certifications">
+        <h2 class="heading">Certifications and MOOCs</h2>
+        <ul>
+            <li style = color:#3498db> <a href="certifications/Python/Intro to Python.pdf" > Introduction to Python (DataCamp)</a></li>
+            <li style = color:#3498db> <a href="certifications/Python/Intermediate Python.pdf" >Intermediate Python (DataCamp)</a></li>
+            <li style = color:#3498db> <a href="certifications/R/Intro to R SOA_Bronkema.pdf" >Introduction to R (DataCamp)</a></li>
+            <li style = color:#3498db> <a href="certifications/R/Intermediate R SOA_Bronkema.pdf" >Intermediate R (DataCamp)</a></li>
+            <li style = color:#3498db> <a href="certifications/R/Intro to Tidyverse SOA_Bronkema.pdf" >Introduction to Tidyverse (DataCamp)</a></li>
+            <li style = color:#3498db> <a href="certifications/R/Data Manipulation with dplyr SOA_Bronkema.pdf" >Data Manipulation with dplyr (DataCamp)</a></li>
+            <li style = color:#3498db> <a href="certifications/tableau/Tableau Fundamentals Certificate.pdf" >Tableau Fundamentals (Tableau)</a></li>
+            <li style = color:#3498db> <a href="certifications/tableau/Tableau Intermediate Certificate.pdf" >Tableau Intermediate (Tableau)</a></li>
+            <li style = color:#3498db> <a href="certifications/tableau/Tableau Advanced Certificate.pdf" >Tableau Advanced (Tableau)</a></li>
+            <li style = color:#3498db> <a href="certifications/tableau/Tableau Prep Builder Certificate.pdf" >Tableau Prep Builder (Tableau)</a></li>
+        </ul>
     </div>
-    <!-- End #contact -->
+    <!-- End #certifications -->
+
+    <div id="CurrentProjects">
+        <h2 class="heading">Current Projects and Classes</h2>
+        <ul>
+            <li><b>Consulting Practicum:</b> Forecasting shipping volume to mitigate risk for home furnishing industry leader - RH</li>
+            <li><b>Advanced Business Analytics:</b> Two credit-hour core class outlining time series models, survival data analysis,
+              and social network analytics (R)</li>
+            <li><b>Pricing Strategy and Analysis:</b> Two credit-hour business elective with an analytical approach to pricing in
+              real-world business scenarios (Excel)</li>
+            <li><b>Oracle 12c SQL Certified Associate Course: </b>Udemy course I am taking to prepare for the Oracle Database SQL Certified
+                  Associate Exam (20+ hours) </li>
+            <li><b>aCap Exam Preparation: </b> I am currently studying for the aCap Exam, with plans to take the exam prior to graduation
+                  in May. </li>
+            <li><b>Tableau Desktop Specialist Certification Exam Preparation: </b> Having already studied for the certification, I plan
+              to take the exam by the end of April. </li>
+            <li><b>Data Analyst with Python:</b> Career Track in DataCamp (66 hours)</li>
+            <li><b>Data Scientist with R:</b> Career Track in DataCamp (88 hours)</li>
+        </ul>
+    </div>
+
+
+
 
     <footer>
         <div class="container">
             <div class="row">
+
+
                 <div class="col-sm-5 copyright">
-                    <p>
-                        Copyright &copy; <span id="current-year">2022</span> Jackson Bronkema
+                    <p style="color:white">
+                        Copyright &copy; <span id="current-year" >2022</span> Jackson Bronkema
                     </p>
                 </div>
-                <div class="col-sm-2 top">
+
+
+                <div class="col-sm-2 top" >
                     <span id="to-top">
-                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                        <i class="fa fa-chevron-up" aria-hidden="true" style="color:white"></i>
                     </span>
                 </div>
+
+
                 <div class="col-sm-5 social">
                     <ul>
+                      <li>
+                          <a href="https://www.linkedin.com/in/jackson-bronkema-36392a17a/" target="_blank" style="color:white"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                      </li>
                         <li>
-                            <a href="https://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                            <a href="https://github.com/jtbronkema" target="_blank" style="color:white"><i class="fa fa-github" aria-hidden="true"></i></a>
                         </li>
                     </ul>
                 </div>
+
             </div>
         </div>
     </footer>
